@@ -1,0 +1,27 @@
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+    Semantic HTML is the correct use of HTML to reinforce the meaning of content on a web page, rather than merely define its appearance
+    In other words, semantic HTML is the use of relevant language or words that represent what they are exactly. It make's one code more readable
+    and relevant for others to read and understand.  
+
+2. Name two big differences between display: block; and display: inline;.
+
+    Block elements are those that take up the full width available on a web page, 
+    effectively blocking out any other elements from sitting next to it on the left or right. 
+    Inline elements are those who only take up as much width as is needed to display the contents of the element, 
+    thereby allowing other elements to be in line with the inline element.
+
+3. What are the 4 areas of the box model?
+
+    Content, border, margin, and padding. 
+
+4. While using flexbox, what axis does the following property work on: align-items: center?
+
+    This property allows the flexed elements to aligned at the the center of the cross axis. By default, the cross axis is vertical.
+    In other words, the flexed items will be centered vertically. 
+
+5. Explain why git is valuable to a team of developers.
+
+    It allows members of a team to work and contribute their portion of a specific project without the fear 
+    of making any unintentional or permanent changes to the main project. It allows the team to push their contributions into the version
+    control system and can also make any necessary changes to the project. 

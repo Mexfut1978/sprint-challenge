@@ -1,0 +1,191 @@
+/* /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time,html, body, div, span, applet, object, iframe,
+ mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+ 
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
+
+
+.main-cointainer {
+   display: flex;
+   justify-content: left;
+}
+
+
+.nav-container {
+   display: flex;
+
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 88%;
+    position: 10%;
+    
+}
+
+.nav2 .logo {
+    padding-left: -5%;
+}
+
+.logo {
+    width: 20%;
+    text-align: left;
+    /* margin-left: -190px; */
+
+}
+
+.tabs {
+    text-decoration: none;
+    padding-top: 17px;
+    color: black;
+}
+
+.wide-image {
+    padding-top: 3%;
+    width: 100%;
+
+
+
+}
+
+.top-section {
+    width: 100%;
+    
+}
+
+.p-1 {
+    width: 100%;
+    font-size: 1.7vw;
+    text-align: left;
+    font-size: auto;
+    margin-left: 26px;
+
+
+
+}
+
+h2 {
+    font-size: 150%;
+        margin-left: 25px;
+
+}
+
+p {
+    font-size: 100%;
+    text-align: left;
+    font-size: 1vw;
+
+
+}
+/* main section */
+
+
+
+.top-mid-section {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-mid-section {
+    display: flex;
+    justify-content: center;
+}
+
+.mid-images {
+    height: 50%;
+    width: 74%;
+}
+
+.block-text {
+    
+    text-align: left;
+    padding: 11px;
+    margin-right: 26%;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 6px;
+    height: 30px;
+    width: 102px;
+}
+
+
+
+/* footer section */
+
+footer {
+    min-height: 50px;
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+} 
+
+.foot-text {
+    width: 100%;
+    font-size: 1.6vw;
+    text-align: left;
+    font-size: auto;
+    padding-bottom: 24px;
+
+}
